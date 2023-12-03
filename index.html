@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+    <div class="calculator">    
+        <div class="screen">    
+            <input class="display" type="text">
+        </div>
+        <div class="btn-box">
+            <button data="7" class="button ">7</button>
+            <button data="8" class="button ">8</button>
+            <button data="9" class="button ">9</button>
+            <button data="+" class="button operations">+</button>
+            <button data="4" class="button">4</button>
+            <button data="5" class="button">5</button>
+            <button data="6" class="button">6</button>
+            <button data="-" class="button operations">-</button>
+            <button data="1" class="button">1</button>
+            <button data="2" class="button">2</button>
+            <button data="3" class="button">3</button>
+            <button data="*" class="button operations">x</button>
+            <button onclick="clearData()" class="clearBtn">C</button>
+            <button data="0" class="button">0</button>
+            <button  class="equall" onclick="solve()">=</button>
+            <!-- <button onclick="solve()" class="button equall"> = </button> -->
+            <button data="/" class="button operations">/</button>
+        </div>  
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+        
